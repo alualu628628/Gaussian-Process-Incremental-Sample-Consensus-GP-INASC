@@ -22,7 +22,7 @@ catkin_make -DCMAKE_BUILD_TYPE=Release
 
 ## Running
 Most of the algorithm parameters are declared in GP-INASC/launch/gpinsac.launch, including input topic and output topic.    
-Run this node after modifying  <param name="lidar_topic" type="string" value="/YOUR OWN TOPIC" /> to your real-time point cloud topic:    
+Run this node after modifying $<param name="lidar_topic" type="string" value="/YOUR OWN TOPIC" />$ to your real-time point cloud topic:    
 ```
 roslaunch travelable_region gp_insac.launch 
 ```
