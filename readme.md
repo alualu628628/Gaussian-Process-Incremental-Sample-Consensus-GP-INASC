@@ -1,11 +1,14 @@
-# travelable_region
-An implementation of GP-INSAC algorithm
-Author: Huang Pengdi
-Email:alualu628628@163.com
-This is a implementation of GP-INSAC algorithm in ROS system
-The full name of GP-INSAC algorithm is Gaussian Process INSAC algorithm
-It is firstly proposed by B. Douillard et al. in the paper:
-Douillard B, Underwood J, Kuntz N, et al, On the segmentation of 3D LIDAR point clouds, IEEE ICRA 2011, 2798-2805.
+# travelable_region  
+An implementation of GP-INSAC algorithm  
+Author: Huang Pengdi  
+Email:alualu628628@163.com  
+  
+This is a implementation of GP-INSAC algorithm in ROS system  
+The full name of GP-INSAC algorithm is Gaussian Process INSAC algorithm  
+  
+  
+It is firstly proposed by B. Douillard et al. in the paper:   
+Douillard B, Underwood J, Kuntz N, et al, On the segmentation of 3D LIDAR point clouds, IEEE ICRA 2011, 2798-2805.  
 
 This algorithm is to obtain the travelable region (ground points) of a read-time point clouds (one frame online point cloud)
 **Note** that the input topic of GP-INASC is macthing with the output topic of [LOAM](https://github.com/laboshinl/loam_velodyne.git)
