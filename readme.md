@@ -8,7 +8,7 @@ It is firstly proposed by B. Douillard et al. in the paper:
 Douillard B, Underwood J, Kuntz N, et al, On the segmentation of 3D LIDAR point clouds, IEEE ICRA 2011, 2798-2805.
 
 This algorithm is to obtain the travelable region (ground points) of a read-time point clouds (one frame online point cloud)
-**Note** that the input topic of GP-INASC is macthing with the output topic of [LOAM]https://github.com/laboshinl/loam_velodyne.git
+**Note** that the input topic of GP-INASC is macthing with the output topic of [LOAM](https://github.com/laboshinl/loam_velodyne.git)
 
 ## Installation
 Makesure you have a ubuntu14.04 system and a ROS system[ROS - Indigo](http://www.ros.org/), I think indigo or higher version is fine.
@@ -24,4 +24,4 @@ Run this node after modifying  <param name="lidar_topic" type="string" value="/Y
 roslaunch travelable_region gp_insac.launch 
 ```
 
-If you still do not know how to deal with your configuration, a example here may be helpful[Husky_Simulation]https://github.com/alualu628628/Husky_Simulation.git, in which this node is used for real-time ground extraction.
+If you still do not know how to deal with your configuration, here a example [Husky_Simulation](https://github.com/alualu628628/Husky_Simulation.git) may be helpful, in which this node is used for real-time ground extraction.
