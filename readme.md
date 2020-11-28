@@ -1,10 +1,10 @@
 # travelable_region  
-An implementation of GP-INSAC algorithm  
+An implementation of Gaussian Process Incremental Sample Consensus (GP-INSAC) algorithm  
 Author: Huang Pengdi  
 Email:alualu628628@163.com  
   
 This is a implementation of GP-INSAC algorithm in ROS system  
-The full name of GP-INSAC algorithm is Gaussian Process INSAC algorithm  
+The full name of GP-INSAC algorithm is Gaussian Process Incremental Sample Consensus algorithm  
   
   
 It is firstly proposed by B. Douillard et al. in the paper:   
