@@ -3,18 +3,18 @@ An implementation of Gaussian Process Incremental Sample Consensus (GP-INSAC) al
 Author: Huang Pengdi  
 Email:alualu628628@163.com  
   
-This is a implementation of GP-INSAC algorithm in ROS system  
+This is an implementation of GP-INSAC algorithm in ROS system  
 The full name of GP-INSAC algorithm is Gaussian Process Incremental Sample Consensus algorithm  
   
   
 It is firstly proposed by B. Douillard et al. in the paper:   
 Douillard B, Underwood J, Kuntz N, et al, On the segmentation of 3D LIDAR point clouds, IEEE ICRA 2011, 2798-2805.  
 
-This algorithm is to obtain the travelable region (ground points) of a read-time point clouds (one frame online point cloud)  
+This algorithm is to obtain the travelable region (ground points) from a read-time point clouds (one frame online point cloud)  
 **Note** that the input topic of GP-INASC is macthing with the output topic of [LOAM](https://github.com/laboshinl/loam_velodyne.git)
 
 ## Installation
-Makesure you have a ubuntu14.04 system and a ROS system [ROS - Indigo](http://www.ros.org/), I think indigo or higher version is fine.    
+Makesure you have a ubuntu 14.04 system and a ROS system [ROS - Indigo](http://www.ros.org/), I think indigo or higher version is fine.    
 cd $YOUR_WORKSPACE_DIR$, and type:
 ```
 catkin_make -DCMAKE_BUILD_TYPE=Release
